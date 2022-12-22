@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Gravidade</title>
+    <style>
+        canvas{
+            border: solid purple 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><h3>HOME</h3></a>
+        </nav>
+    </header>
+    <section class="espacodojogo">
+        <canvas class="hide"id="jogo" width="900" height="616">        <img id="jogador" src="./img/pixil-frame-1.png" alt=""></canvas>    
+
+    </section>
+    <aside>
+        <div style="margin:3%">
+            <a href="simulacaoterra.html">
+                <img id="terra" src="./img/earth.png" alt="">
+            </a>
+            <a href="simulacaolua.html">
+                <img id="Lua" src="./img/moon.png" alt="">
+            </a>
+            <a href="simulacaojupiter.html">
+                <img id="Jupiter" src="./img/jupiter.png" alt="">
+            </a>
+            <a href="simulacaonetuno.html">
+                <img id="Netuno" src="./img/netuno.png" alt="">
+            </a>
+        </div>
+        <div  style="margin:10%;">
+            <h2>Gravidade</h2>
+            <p>1,62 m/s²</p>
+            <h2>MASSA</h2>
+            <p>2,1958 × 10^10</p>
+            <h2>Temperatura Media</h2>
+            <p>-53,1 ºC</p>
+            <h2>TEMPO</h2>
+            <p>Um dia dura 27 dias 7 horas 43 minutos <br> Um ano dura o mesmo que a Terra ja que está orbitando a mesma</p>
+            
+        </div>
+    </aside>
+    <script src="./ScriptLua.js" type="module"></script>
+</body>
+</html>

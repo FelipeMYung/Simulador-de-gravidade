@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Gravidade</title>
+    <style>
+        canvas{
+            border: solid purple 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><h3>HOME</h3></a>
+        </nav>
+    </header>
+    <section class="espacodojogo">
+        <canvas class="hide"id="jogo" width="980" height="616"></canvas>    
+    </section>
+    <script language=javascript type="text/javascript">
+        function newPopup(){
+        varWindow = window.open ('popup.html', 'popup')
+        }
+        </script>
+        
+    <aside>
+            <div style="margin:3%">
+                <a href="simulacaoterra.html">
+                    <img id="terra" src="./img/earth.png" alt="">
+                </a>
+                <a href="simulacaolua.html">
+                    <img id="Lua" src="./img/moon.png" alt="">
+                </a>
+                <a href="simulacaojupiter.html">
+                    <img id="Jupiter" src="./img/jupiter.png" alt="">
+                </a>
+                <a href="simulacaonetuno.html">
+                    <img id="Netuno" src="./img/netuno.png" alt="">
+                </a>
+            </div>
+            <div style="margin:10%;">
+                <h2>Gravidade</h2>
+                <p>11,15 m/s²</p>
+                <h2>MASSA</h2>
+                <p>	1,0243 × 10^26 kg</p>
+                <h2>LUAS</h2>
+                <p>14 Luas.</p>
+                <h2>Temperatura Media</h2>
+                <p>−223,15 ºC</p>
+                <h2>TEMPO</h2>
+                <p>Um dia dura "16 horas" <br> Um ano dura 165 anos terrestres.</p>
+        </div>
+    </aside>
+    <script src="./ScriptNetuno.js" type="module"></script>
+</body>
+</html>

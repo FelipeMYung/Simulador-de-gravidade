@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(/img/space.png);
+    background-size: 100%;
+    background-color: black;
+}
+
+.espacodojogo{
+    float: left;
+    width: 80%;
+    height: 650px;
+    background-color: black;
+}
+canvas{
+    float: left;
+}
+aside{
+    width: 20%;
+    height: 650px;
+    color: white;
+    float: left;
+    background: url(./img/space2.png);
+    background-size:100% 650px; 
+    background-repeat:no-repeat ;
+}
+#glosario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+}
+.botao-aside{
+    width: 100px;
+    height: 100px;
+}
+button{
+    margin: 13px;
+}
+#terra{
+    width: 90px;
+    height: 90px;
+    margin-right: 40px;
+}
+#Lua{
+    width: 100px;
+    height: 100px;
+}
+#Jupiter{
+    width: 100px;
+    height: 100px;
+}
+#Netuno{
+    width: 140px;
+    height: 100px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+main section img{
+    height: 200px;
+}
+#sun{
+    position: absolute;
+}
+
+.planeta-imagem{
+    animation: rotação 10s infinite ease-in-out;
+}

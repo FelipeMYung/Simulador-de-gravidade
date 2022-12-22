@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simulador de Gravidade</title>
+  <style>
+    body{
+        color: azure;
+        background-color: black;
+    }
+    img{
+      position: absolute;
+    }
+    #j{
+      width: 20%;
+      margin-left: -10%;
+      margin-top: 10%;
+    }
+    #n{
+    margin-left: -10%;
+      margin-top: 23%;
+      width: 10%;
+    }
+    #t{
+      margin-top: 27%;
+      width: 3%;
+    }
+    #m{
+        width: 1%;
+        margin-top: 28%;
+        margin-left: 3%;
+    }
+    div{
+      display: flex;
+      align-items:center ;
+      justify-content: center;
+    }
+    #Calculo{
+      float: right;
+      margin-right: 10%;
+    }
+  </style>
+</head>
+<body>
+    <section>
+        <h1>Veja como como são os planetas se estivessem na sua frente</h1>
+        <p>Clique nos planetas para interagir</p>
+
+        <h2>Curiosidades:</h2>
+        <p>Se Júpiter fosse um planeta oco, caberiam 1.300 terras dentro!</p>
+        <p>Se a terra fosse uma bola de futebol, a lua seria uma bola de tênis.</p>
+    </section>
+    <section id="Calculo">
+      <h2>Cálculo:</h2>
+      <p>g = G.m/R²</p>
+      <p>g = Gravidade</p>
+      <p>G = Constante Gravitacional Universal</p>
+      <p>m = Massa do planeta</p>
+      <p>R = Raio do planeta</p>
+    </section>
+    <div>
+      <a href="simulacaojupiter.html"><img id="j" src="https://cdn.pixabay.com/photo/2013/07/12/18/36/jupiter-153563_960_720.png" alt=""></a>
+    </div>
+    <div>
+      <a href="simulacaonetuno.html"><img id="n" src="https://sesieducacao.com.br/brasil/planetarium/images/30_neptune.png" alt=""></a>
+    </div>
+    <div>
+      <a href="simulacaoterra.html"><img id="t" src="https://www.grupoesperancarural.com.br/wp-content/uploads/2021/04/Planeta-Terra.png" alt=""></a>
+    </div>
+    <div>
+        <a href="simulacaolua.html"><img id="m" src="./img/moon.png" alt=""></a>
+    </div>
+</body>
+</html>
